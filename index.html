@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur de ROI en Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculateur de ROI en Marketing</h1>
+        
+        <div class="form-group">
+            <label for="investissement">Investissement en Marketing (€) :</label>
+            <input type="number" id="investissement" placeholder="Entrez l'investissement" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="revenus">Revenus générés (€) :</label>
+            <input type="number" id="revenus" placeholder="Entrez les revenus" required>
+        </div>
+        
+        <button onclick="calculerROI()">Calculer ROI</button>
+
+        <div id="resultat" class="resultat">
+            <!-- Le résultat du ROI sera affiché ici -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
