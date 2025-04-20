@@ -51,7 +51,7 @@ input {
 }
 
 button {
-    background-color: #28a745;
+    background-color: #f75a37;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -62,7 +62,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #e44d2a;
 }
 
 .resultat {

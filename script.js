@@ -15,5 +15,5 @@ function calculerROI() {
     
     // Afficher le résultat
     let resultatDiv = document.getElementById('resultat');
-    resultatDiv.textContent = `Le retour sur investissement (ROI) est de ${roi.toFixed(2)}%`;
+    resultatDiv.textContent = `Le retour sur investissement (ROI) est de ${roi.toFixed(2)}% (calculé en $ CAD)`;
 }
