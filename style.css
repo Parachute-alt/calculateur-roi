@@ -30,12 +30,13 @@ body {
 }
 
 .logo-parachute {
-    width: 100px;          /* taille idéale sur mobile/desktop */
-    max-width: 35vw;       /* jamais plus que 25% de la largeur de l’écran */
+    width: 140px;          /* taille de base plus grande */
+    max-width: 40vw;       /* autorise un élargissement jusqu’à 40% de l’écran */
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
+
 
 
 h1 {
