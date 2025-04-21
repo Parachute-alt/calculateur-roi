@@ -30,12 +30,27 @@ body {
 }
 
 .logo-parachute {
-    width: 140px;          /* taille de base plus grande */
-    max-width: 40vw;       /* autorise un élargissement jusqu’à 40% de l’écran */
+    width: 150px;
+    max-width: 35vw;
     height: auto;
     display: block;
     margin: 0 auto 20px;
 }
+
+/* Grand écran (ordi) */
+@media screen and (min-width: 1024px) {
+    .logo-parachute {
+        width: 160px;
+    }
+}
+
+/* Très petit écran (mobile étroit) */
+@media screen and (max-width: 480px) {
+    .logo-parachute {
+        width: 100px;
+    }
+}
+
 
 
 
