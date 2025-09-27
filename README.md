@@ -34,3 +34,5 @@ En entrant les coûts et les retours attendus, l’outil fournit instantanément
 ```bash
 git clone https://github.com/Parachute-alt/roi-calculator.git
 cd roi-calculator
+
+Try it online : https://studioparachute.co/outils-marketing-parachute-gratuits-roi-analytics-tools
